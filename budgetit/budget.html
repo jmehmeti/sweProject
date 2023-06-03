@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Budget Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Budget Calculator</h1>
+    <h2>Income</h2>
+    <label for="income">Income:</label>
+    <input type="number" id="income" placeholder="Enter income amount">
+
+    <label for="income-category">Income Category:</label>
+    <input type="text" id="income-category" placeholder="Enter income category">
+
+    <h2>Expenses</h2>
+    <div id="expenses">
+      <!-- Expenses will be dynamically added here -->
+    </div>
+
+    <button onclick="addExpense()">Add Expense</button>
+    <button onclick="calculateBudget()">Calculate Budget</button>
+
+    <h2>Budget Summary</h2>
+    <p id="total-income">Total Income: $0</p>
+    <p id="total-expenses">Total Expenses: $0</p>
+    <p id="remaining-budget">Remaining Budget: $0</p>
+
+    <h2>Income Category Summary</h2>
+    <p id="income-category-summary">Income Category: None</p>
+  </div>
+
+  <div id="video-container"></div>
+</body>
+</html>

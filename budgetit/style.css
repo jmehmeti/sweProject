@@ -1,0 +1,33 @@
+body {
+  background-image: url("https://wallpaperaccess.com/full/1104816.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.expense {
+  margin-bottom: 10px;
+}
+
+.expense-category {
+  margin-top: 5px;
+}
+
+#video-container {
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.income-category-summary {
+  font-weight: bold;
+}
